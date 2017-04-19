@@ -14,7 +14,7 @@ COMMIT_MESSAGE="$(git show -s --format="%s" master)"
 if [ ! -d target ]; then
 	git clone https://github.com/scrapnswap/scrapnswap.github.io.git target
 	cd target
-	git remote add origin-ssh git@github.com:scrapnswap/scrapnswap.github.io.get
+	git remote add origin-ssh git@github.com:scrapnswap/scrapnswap.github.io.git
 else
 	cd target
 	git pull origin master
