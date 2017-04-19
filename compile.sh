@@ -7,7 +7,7 @@ if [ "a$1" == "adev" ]; then
 fi
 
 if [ $dev -eq 1 ]; then
-	jekyll serve -H 0.0.0.0
+	bundle exec jekyll serve -H 0.0.0.0
 else
-	jekyll build
+	bundle exec jekyll build
 fi
