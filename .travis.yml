@@ -1,4 +1,6 @@
 language: ruby
+rvm:
+- 2.3.3
 before_install: ./install.sh
 install: ./compile.sh
 deploy:
