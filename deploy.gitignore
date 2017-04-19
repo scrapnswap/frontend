@@ -1,0 +1,8 @@
+---
+permalink: .gitignore
+---
+/Gemfile*
+/README.md
+/*.sh
+/deploy_key*
+.git*
