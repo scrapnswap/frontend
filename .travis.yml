@@ -1,9 +1,8 @@
 language: ruby
 rvm:
 - 2.3.3
-before_install: ./install.sh
-install: ./compile.sh
-test: echo
+install: ./install.sh
+script: ./compile.sh
 deploy:
   provider: script
   script: ./deploy.sh
